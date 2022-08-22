@@ -1,0 +1,87 @@
+@media screen and (max-width: 767px) {
+  .hero--bg {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(/images/mobile/hero/hero_bg.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--secondary-bg-color);
+    max-width: 480px;
+    height: 400px;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero--bg {
+      background-image: url(/images/mobile/hero/hero_bg@2x.jpg);
+    }
+  }
+}
+.container.hero-container {
+  padding: 118px 60px;
+}
+.hero__title {
+  max-width: 360px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-text-color);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.hero__btn {
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--accent-text-color);
+  padding: 10px 32px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero--bg {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(/images/tablet/hero/hero_bg.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--secondary-bg-color);
+    width: 768px;
+    height: 400px;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero--bg {
+      background-image: url(/images/tablet/hero/hero_bg@2x.jpg);
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero--bg {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(/images/desktop/hero/hero_bg.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--secondary-bg-color);
+    max-width: 1600px;
+    height: 600px;
+    padding: 100px 0;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero--bg {
+      background-image: url(/images/desktop/hero/hero_bg@2x.jpg);
+    }
+  }
+}
