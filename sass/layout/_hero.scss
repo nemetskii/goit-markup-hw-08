@@ -15,12 +15,13 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .hero--bg {
-      background-image: url(../images/mobile/hero/hero_bg@2x.jpg);
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/mobile/hero/hero_bg@2x.jpg);
     }
   }
 }
 .container.hero-container {
-  padding: 118px 60px;
+  padding: 118px 0;
 }
 .hero__title {
   max-width: 360px;
@@ -59,7 +60,8 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .hero--bg {
-      background-image: url(../images/tablet/hero/hero_bg@2x.jpg);
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/tablet/hero/hero_bg@2x.jpg);
     }
   }
 }
@@ -81,7 +83,13 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .hero--bg {
-      background-image: url(../images/desktop/hero/hero_bg@2x.jpg);
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/desktop/hero/hero_bg@2x.jpg);
     }
+  }
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
   }
 }

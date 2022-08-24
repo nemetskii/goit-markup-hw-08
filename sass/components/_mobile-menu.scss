@@ -24,6 +24,9 @@
     padding-top: 48px;
     padding-bottom: 48px;
     padding-left: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
   .mobile-menu__close-btn {
     position: absolute;
@@ -49,7 +52,7 @@
     }
   }
   .mobile-page-nav {
-    margin-bottom: 302px;
+    margin-bottom: auto;
   }
   .mobile-page-nav__item:not(:last-child) {
     margin-bottom: 32px;
@@ -89,6 +92,7 @@
   }
   .mobile-menu__social-list {
     display: flex;
+    flex-wrap: wrap;
   }
   .mobile-menu__social-item:not(:last-child) {
     margin-right: 10px;

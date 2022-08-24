@@ -3,7 +3,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 450px;
+  min-width: 95%;
+  width: auto;
   height: 609px;
   padding: 40px;
   border-radius: 4px;
@@ -38,7 +39,17 @@
     fill: var(--accent-color);
   }
 }
-
+@media screen and (min-width: 768px) {
+  .modal {
+    min-width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
 // .modal {
 //   position: absolute;
 //   top: 50%;
